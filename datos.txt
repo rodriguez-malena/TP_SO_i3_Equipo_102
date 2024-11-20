@@ -7,3 +7,8 @@ Alfa
 -Lautaro Torres Distefano
 -201.213.18.161
 -22:13
+
+Beta
+-Malena Rodriguez Barrio
+-186.128.175.11
+-22:34
