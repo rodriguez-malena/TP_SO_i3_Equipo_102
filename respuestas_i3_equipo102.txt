@@ -1,0 +1,12 @@
+Beta: Malena Rodriguez Barrio
+
+a-¿Cómo queda el máster después de estos cambios?
+Dentro del master se encuentran los archivos "CPUAlfa.txt","CPUBeta.txt","CPUGamma.txt", "beta.txt","datos.txt" y el "README.md"
+b-¿Beta pudo ver todos los cambios que se realizaron?
+Si, mientras se actualice el main.
+c-¿Que debió hacer (todos los comandos) en el punto 5 para poder hacer el merge ?
+git checkout main : cambia al main
+git pull origin main : actualiza
+git merge fabriziofernandez (nombre de la rama de Gamma) : confirma cambios
+git commit -m "punto 5" : agrego comentario
+git push origin main : subo cambios
