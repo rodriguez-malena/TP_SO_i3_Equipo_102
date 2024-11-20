@@ -1,10 +1,13 @@
 Beta: Malena Rodriguez Barrio
 Gamma: Fabrizio Fernandez
+Alfa: Lautaro Torres Distefano
 
 a-¿Cómo queda el máster después de estos cambios?
 Dentro del master se encuentran los archivos "CPUAlfa.txt","CPUBeta.txt","CPUGamma.txt", "beta.txt","datos.txt" y el "README.md"
+
 b-¿Beta pudo ver todos los cambios que se realizaron?
 Si, mientras se actualice el main.
+
 c-¿Que debió hacer (todos los comandos) en el punto 5 para poder hacer el merge ?
 git checkout main : cambia al main
 git pull origin main : actualiza
@@ -14,37 +17,37 @@ git push origin main : subo cambios
 
 D-¿Las ramas creadas por BETA y GAMMA quedan con datos actualizados?
 
--Dependerá del contexto en el que se encuentren BETA y GAMMA y de cómo se gestionan las ramas en tu flujo de trabajo. Aquí hay un análisis general de cómo funcionan las ramas y la actualización de datos:
-
-Si BETA y GAMMA son ramas de un sistema de control de versiones como Git:
- Las ramas solo tienen los datos (cambios) que se han introducido en ellas mediante commits.
- Para que las ramas BETA y GAMMA tengan datos actualizados, necesitas fusionar (merge)Los cambios desde entoncesmaino `desarrollardevelop) hacia ellas,
-Alternativamente, puedes hacer un rebasePensilvania
- 
-Si BETA y GAMMA son nombres de entornos o procesos en un sistema:
- Los datos "actualizados" dependen de cómo y cuándo se sincronizan o despliegan estos entornos. Por ejemplo:
- En un entorno de desarrollo, podría necesitarse. y otras situaciones más.
+-Depende, las ramas deben ser actualizadas manualmente mediante un merge/pull
 
 E-¿Detalle (explique) los problemas que tuvieron al hacer el merge?
 -El problema que tuvimos ussando el merge, es que tuvimos que actualizar usando "git pull" por ejemplo; pero fuera de eso nada mas fue una complicacion.
 
-
-
 F-¿que debió hacer (todos los comandos) en el punto 7 para poder hacer lo pedido?
-  225  git fetch origin
-  226  git merge origin/fabriziofernandez
-  227  git checkout
-  228  git checkout rodriguezbarrios
-  229  git checkout rodriguezbarrio
-  230  git fetch
-  231  git merge origin main
-  232  git checkout rodriguezbarrio
-  233  echo "Fabrizio Fernandez" >>
-  234  echo "Fabrizio Fernandez" >> beta.txt
-  235  ipconfig.exe >> beta.txt
-  236  echo "23:39" >> beta.txt
-  237  git add .
-  238  git commit -m "Modifico archivo beta.txt"
-  239  git add .
-  240  git push origin rodriguezbarrio
+git fetch : Trae los cambios del repositorio 
+git merge origin/main
+git checkout rodriguezbarrio
 
+# Modificaciones al archivo 'beta.txt':
+echo "Nombre gamma: Fabrizio Fernandez" >> beta.txt
+ipconfig.exe >> beta.txt
+echo "23:14" >> beta.txt
+
+# Actualizar la rama:
+git add .
+git commit -m "Gamma sube punto 7"
+git push origin rodriguezbarrio 
+
+G- ¿que debió hacer (todos los comandos) en el punto 8 para poder hacer lo pedido?
+git fetch                           # Trae los cambios del repositorio remoto
+git merge origin/main                
+git checkout rodriguezbarrio
+
+# Modificaciones al archivo 'beta.txt':
+echo "Nombre alfa: Lautaro Torres Distefano" >> beta.txt
+ipconfig.exe >> beta.txt
+echo "23:14" >> beta.txt
+
+# Actualizar la rama:
+git add .
+git commit -m "Alfa sube punto 8"
+git push origin rodriguezbarrio
