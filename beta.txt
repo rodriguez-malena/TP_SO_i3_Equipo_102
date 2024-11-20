@@ -38,4 +38,4 @@ Adaptador de Ethernet Conexi¢n de red Bluetooth:
 
    Estado de los medios. . . . . . . . . . . : medios desconectados
    Sufijo DNS espec¡fico para la conexi¢n. . : 
-22:58
+23:27
